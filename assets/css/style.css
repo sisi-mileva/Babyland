@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+body {
+	background: url("../images/clouds.jpg") no-repeat center center fixed;
+	background-size: 100% 100%;
+	font-family: 'Arial, Helevetica', sans-serif;
+	font-weight: bold;
+}
+
+#container {
+	width: 100%;
+}
+#enter {
+	display: block;
+	width: 100%;
+}
+
+#moon {
+	position: absolute;
+	background: url("../images/moon.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 200px;
+	top: 4em;
+	left: 4em;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+}
+
+#title {
+	position: absolute;
+	background: url("../images/baby-land.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 100px;
+	top: 6em;
+	left: 12em;
+}
+
+.log {
+  border: 2px solid rgba(255,255,255,0.3);
+  margin: 12em auto;
+  padding: 1em;
+  width: 350px;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #888888; 
+}
+
+#log {
+	margin: 8em auto;
+}
+
+input, button {
+  margin: 0.5em;
+  background-color: rgba(255,255,255,0.3); 
+  width: 90%;
+}
+
+#log-error {
+	color: red;
+	display: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-align: center;
+  border: 1px solid #dddddd;
+  box-shadow: 1px 1px #000000;
+  background-color: rgba(1,166,198,0.3);
+  color: #01A6C6;
+  text-shadow: 1px 1px #000000;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px; 
+  outline: none;
+  font-weight: bold;
+  width: 45%;
+  cursor:pointer;
+  }
+  
+  #cloud {
+  	position: absolute;
+	background: url("../images/cloud.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 200px;
+	top: 4em;
+	right: 4em;
+	-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Safari */
+    transform: rotate(40deg);
+  }
+  
+  #clothes {
+  	position: absolute;
+	background: url("../images/clothes.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 400px;
+	height: 300px;
+	top: 1em;
+	left: 30em;
+	display: none;
+  }
+  
+  #hook {
+  	position: absolute;
+	background: url("../images/hook.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 200px;
+	top: 15em;
+	right: 8em;
+  }
+  
+  #toy {
+  	position: absolute;
+	background: url("../images/toy.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 80px;
+	height: 80px;
+	bottom: 4em;
+	right: 15em;
+	-ms-transform: rotate(-40deg); /* IE 9 */
+    -webkit-transform: rotate(-40deg); /* Safari */
+    transform: rotate(-40deg);
+  }
+  
+  #car {
+  	position: absolute;
+	background: url("../images/car.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 250px;
+	height: 250px;
+	bottom: 4em;
+	left: 4em;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+  }
+  
+  #art {
+  	position: absolute;
+	background: url("../images/art.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 280px;
+	height: 280px;
+	bottom: 3em;
+	right: 35em;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+    z-index: -1;
+  }
+  
+  #electricity {
+  	position: absolute;
+	background: url("../images/electricity.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 200px;
+	top: 2em;
+	left: 40em;
+	-ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+  }
+  
+  #new {
+  	display: none;
+  	width: 100%;
+  }
+  
+  #new a {
+  	text-decoration: none;
+  	color: #01A6C6;
+  	text-shadow: 1px 1px #000000; 
+  	margin-left: 1em;
+  	font-size: 0.8em;
+  }
+  
+  #clothes {
+  	position: absolute;
+	background: url("../images/clothes.png") no-repeat center center;
+	background-size: 100% 100%;
+	width: 400px;
+	height: 300px;
+	top: 15em;
+	left: 57em;
+	-ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+  }
+  
+  p.error {
+	color:red;
+	margin: 0;
+	padding-bottom: 0.5em;
+}

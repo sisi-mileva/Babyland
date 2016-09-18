@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Play Baby land</title>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/baby-care.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="moon"></div>
+	<div id="title"></div>
+	<div id="enter">
+		<div class="log">
+			<div id="cloud"></div>
+			<div id="hook"></div>
+			<div id="toy"></div>
+			<div id="car"></div>
+			<div id="art"></div>
+			<div id="electricity"></div>
+			<form action="" method="post" id="log-in">
+				<div>
+					<label for="username">User name</label>
+				</div>
+					<input type="text" id="username" />
+				
+				<div>
+					<label for="password">Password</label>
+				</div>
+					<input type="password" id="password" />
+				<div>
+				<p id="log-error">Username or password is not valid</p>
+					<button type="submit" id="log-btn" class="button">Log in</button>
+					<button type="button" id="sign-btn" class="button">Sign up</button>
+				</div>
+			</form>
+		</div>
+		
+	</div>
+	<div id="new">
+		<div class="log" id="log">
+			<form action="" method="post" id="new-user" novalidate>
+				<div>
+					<label for="f-name">First name</label>
+					<input type="text" id="f-name"/>
+					<p class="error" id="1"></p>
+				</div>
+				<div>
+					<label for="l-name">Last name</label>
+					<input type="text" id="l-name"/>
+					<p class="error" id="2"></p>
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input type="text" id="email"/>
+					<p class="error" id="3"></p>
+				</div>
+				<div>
+					<label for="u-name">User name</label>
+					<input type="text" id="u-name"/>
+					<p class="error" id="4"></p>
+				</div>
+				<div>
+					<label for="password">Password</label>
+					<input type="password" id="password1"/>
+					<p class="error" id="5"></p>
+				</div>
+				<div>
+					<label for="r-password">Repeat password</label>
+					<input type="password" id="r-password"/>
+					<p class="error" id="6"></p>
+				</div>
+				
+				<div>
+					<button type="submit" class="button" id="sign-up">Sign up</button>
+					<a href="#">Back</a>
+				</div>
+			</form>
+		</div>
+		<div id="clothes"></div>
+	</div>
+</div>
+</body>
+</html>

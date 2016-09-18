@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Baby land</title>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/Baby.js"></script>
+<script src="assets/js/game.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="start">
+		<h1>CHOOSE YOUR BABY</h1>
+		<div id="child">
+			<div id="boy"></div>
+			<div id="girl"></div>
+		</div>
+		<div id="name">
+			<form action="" method="post">
+				<div>
+					<label for="baby-name">Baby name</label>
+				</div>
+					<input type="text" id="baby-name" name="baby-name"/><span id="enter-name"></span>
+			</form>
+		</div>
+	</div>
+	<div id="baby-info">
+		<div id="img"></div>
+		<div id="info">
+			<h1>Baby status:</h1>
+			
+			<p>Name: <span id="newBaby"></span></p>
+			<label>Food</label>
+			<div class="box">
+				<div class="food"></div>
+			</div>
+			
+			<label>Drink</label>
+			<div class="box">
+				<div class="drink"></div>
+			</div>
+			
+			<label>Happiness</label>
+			<div class="box">
+				<div class="happy"></div>
+			</div>
+			
+			<div id="visit">
+				<label>Last visit - before:  <span id="last-visit"></span></label>
+			</div>
+			<button type="button" class="button" id="go-game">OK</button>
+			<button type="button" class="button" id="log-out">Log out</button>
+		</div>
+	</div>
+	<div id="game">
+		<div id="baby">
+			<img src="assets/images/bottle.jpg" alt="" id="drink"/>
+		</div>
+		<div id="bottle"></div>
+		<div id="jar"></div>
+		<div id="bear"></div>
+		<div id="pacifier"></div>
+		<button type="button" class="button" id="back">Info</button>
+		<div id="status">
+			<label class="small-label">Food</label>
+			<div class="small-box">
+				<div class="food small"></div>
+			</div>
+			
+			<label class="small-label">Drink</label>
+			<div class="small-box">
+				<div class="drink small"></div>
+			</div>
+			
+			<label class="small-label">Happiness</label>
+			<div class="small-box">
+				<div class="happy small"></div>
+			</div>
+		</div>
+		
+		<div id="sound"></div>
+	</div>
+</div>
+</body>
+</html>
